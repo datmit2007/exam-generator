@@ -22,9 +22,39 @@ Chọn độ khó theo yêu cầu người dùng, bằng số từ **1–5** ho�
 | **4** | **Khó hơn nhiều:** Phần lớn câu phân loại cao, cần tự tìm hướng giải hoặc xây dựng lập luận nhiều bước | **Khó cao:** Phần lớn câu đòi hỏi tự tìm hướng giải, xử lý tình huống ít quen thuộc hoặc xây dựng lập luận nhiều bước; sinh viên học tốt vẫn cần đầu tư đáng kể để hoàn thành |
 | **5** | **Khó hơn rất nhiều / chặn 10:** Hầu hết câu hướng tới phân loại nhóm học tốt nhất trong phạm vi, gồm các câu đòi hỏi tổng hợp và suy luận sâu | **Khó cao nhất / chặn 10:** Hầu hết câu hướng tới phân loại nhóm học tốt nhất; đòi hỏi tổng hợp, suy luận sâu và vận dụng sáng tạo trong phạm vi đã học. Sinh viên nắm chắc kiến thức vẫn khó đạt điểm tuyệt đối |
 
-**Khi có đề tham chiếu:** Lấy đề tham chiếu đã chọn làm mốc và áp dụng mức độ khó 1–5 theo cột tương ứng. Ở mức 1, giữ khối lượng và phân bố độ khó tương đương đề tham chiếu; ở mức 2–5, tăng yêu cầu tư duy theo mức đã chọn. Không có mức dễ hơn đề tham chiếu trong thang này.
+### 2.1. Hiệu chuẩn toàn thang trước khi tạo đề
 
-**Khi không có đề tham chiếu:** Xác định mức 1 là mức chuẩn của một kỳ thi giữa kỳ hoặc cuối kỳ, dựa trên mục tiêu học phần, phạm vi kiến thức, tài liệu, bài tập và thời lượng đã xác định. Đề phù hợp để sinh viên ôn tập đầy đủ, hiểu kiến thức và vận dụng được các nội dung cơ bản có thể hoàn thành phần lớn trong thời gian quy định, đồng thời vẫn có câu phân hóa. Mức 2–5 tăng yêu cầu tư duy từ nền này theo cột tương ứng. Ghi căn cứ thiết kế vào `exam-context.md`; không khẳng định mức chuẩn dự kiến tương đương đề thi thực tế khi chưa có bằng chứng.
+Các mức 1–5 là một thang tương đối cho từng học phần và lượt tạo, không phải năm nhãn độc lập. Trước khi viết câu hỏi, xây dựng nội bộ cả năm mức cho đúng học phần, phạm vi, cấu trúc, nguồn và đối tượng thí sinh của lượt hiện tại. Không diễn giải riêng mức người dùng chọn trong chân không; phải xác định nó nằm ở đâu so với các mức thấp hơn và cao hơn.
+
+Với mỗi mức, xem xét ít nhất các yếu tố sau:
+
+- **Độ sâu suy luận:** từ áp dụng trực tiếp đến chuỗi suy luận nhiều tầng hoặc cần phát hiện điểm nút không hiển nhiên.
+- **Lựa chọn phương pháp:** từ phương pháp gần như được chỉ ra đến phải tự nhận diện mô hình, chiến lược hoặc hướng giải.
+- **Mức kết hợp kiến thức:** từ một nội dung độc lập đến phối hợp nhiều khái niệm hoặc kỹ năng trong phạm vi.
+- **Độ mới của tình huống:** từ dạng quen thuộc đến tình huống biến đổi hoặc ít quen thuộc nhưng vẫn giải được bằng kiến thức đã học.
+- **Xử lý điều kiện và trường hợp:** từ điều kiện đơn giản đến phải phát hiện giới hạn áp dụng, phân trường hợp hoặc xử lý các ràng buộc tinh tế.
+
+Khối lượng tính toán, số liệu xấu, độ dài câu và cách diễn đạt phức tạp chỉ là yếu tố phụ; không dùng chúng làm phương tiện chính để nâng mức khó. Không tăng khó bằng sự mơ hồ hoặc bằng kiến thức ngoài phạm vi.
+
+### 2.2. Khi có đề tham chiếu
+
+Lấy đề tham chiếu đã chọn làm mốc và áp dụng mức độ khó 1–5 theo cột tương ứng. Ở mức 1, giữ khối lượng và phân bố độ khó tương đương đề tham chiếu; ở mức 2–5, tăng yêu cầu tư duy theo mức đã chọn. Không có mức dễ hơn đề tham chiếu trong thang này.
+
+Trước khi tạo đề, phân tích profile yêu cầu tư duy của đề tham chiếu và dùng profile đó làm mức 1. Từ mốc này, xây dựng lần lượt mức 2, 3, 4 và 5 trên cùng phạm vi và cấu trúc. Không nhảy trực tiếp từ đề tham chiếu sang mô tả của mức mục tiêu. Nếu người dùng chọn một mức cao, phải xác định được mức ngay dưới thấp hơn ở đâu và mức ngay trên còn cao hơn ở đâu trước khi viết câu hỏi.
+
+### 2.3. Khi không có đề tham chiếu
+
+Xác định mức 1 là mức chuẩn của một kỳ thi giữa kỳ hoặc cuối kỳ, dựa trên mục tiêu học phần, phạm vi kiến thức, tài liệu, bài tập và thời lượng đã xác định. Đề phù hợp để sinh viên ôn tập đầy đủ, hiểu kiến thức và vận dụng được các nội dung cơ bản có thể hoàn thành phần lớn trong thời gian quy định, đồng thời vẫn có câu phân hóa. Mức 2–5 tăng yêu cầu tư duy từ nền này theo cột tương ứng. Ghi căn cứ thiết kế vào `exam-context.md`; không khẳng định mức chuẩn dự kiến tương đương đề thi thực tế khi chưa có bằng chứng.
+
+Trước khi diễn giải mức 2–5, phải dựng được profile mức 1 của lượt hiện tại từ các căn cứ trên. Sau đó xây dựng lần lượt các mức cao hơn trên cùng thang; không diễn giải trực tiếp một mức cao khi chưa xác định baseline của kỳ thi chuẩn.
+
+### 2.4. Phân biệt các mức liền kề
+
+Sau khi dựng thang, kiểm tra rằng mỗi hai mức liền kề có khác biệt có thể mô tả được về yêu cầu tư duy. Không chấp nhận cách phân biệt chỉ bằng các từ như “khó”, “khó hơn” hoặc “rất khó” nếu không chỉ ra được sự thay đổi thực chất trong cách thí sinh phải suy luận. Nếu mức mục tiêu không thể phân biệt rõ với mức ngay dưới hoặc ngay trên, hiệu chỉnh lại thang trước khi tạo câu hỏi.
+
+### 2.5. Độ khó của toàn đề
+
+Mức người dùng chọn mô tả profile tổng thể của đề, không bắt buộc mọi câu đều có cùng một mức khó. Thiết kế phân bố độ khó phù hợp với cấu trúc và mục tiêu đánh giá: có thể giữ một số câu thấp hơn mức mục tiêu để kiểm tra kiến thức nền và độ bao phủ, đồng thời có một số câu cao hơn để phân hóa khi phù hợp. Mức mục tiêu phải chi phối profile chung của đề. Không áp một tỷ lệ câu cố định cho mọi học phần; xác định phân bố theo nguồn, cấu trúc, thời lượng và mục tiêu của kỳ thi.
 
 Trong cả hai trường hợp, tự lựa chọn cách thiết kế câu hỏi phù hợp học phần và mức khó đã chọn, giữ đúng phạm vi và cấu trúc đã xác định. Không tăng khó bằng diễn đạt mơ hồ hoặc chỉ kéo dài tính toán. Các mức không tương đương tuyệt đối giữa các học phần; mức 1 của một đề tham chiếu vốn rất khó có thể khó hơn mức cao hơn của học phần khác.
 
@@ -64,6 +94,8 @@ Mô tả phải đủ để người dàn trang dựng hình mà không phải g
 
 Giải/đánh giá lại từng câu trước khi xuất. Kiểm tra dữ kiện, quy ước, tính hợp lệ của đáp án, đơn vị, ký hiệu và độ chính xác; áp dụng các kiểm tra chuyên môn phù hợp với môn thực tế. Với câu mở, thử tiêu chí trên hơn một cách trả lời có thể hợp lệ. Kiểm tra lời dẫn, bảng, code, mô tả hình và các lựa chọn khớp nhau.
 
+Sau khi hoàn thành bản nháp, đánh giá lại độ khó thực tế của từng câu hoặc nhóm câu theo chính thang 1–5 đã hiệu chuẩn. Không mặc định câu được dự kiến ở mức nào thì thực tế đạt mức đó. Đối chiếu phân bố thực tế với profile mục tiêu của toàn đề; nếu đề thấp hơn hoặc cao hơn đáng kể so với mức người dùng chọn, chỉnh câu hỏi, yêu cầu suy luận hoặc phân bố câu trước khi xuất. Khi chỉnh độ khó, ưu tiên thay đổi yêu cầu tư duy, lựa chọn phương pháp, sự kết hợp kiến thức hoặc cấu trúc suy luận; không chỉ kéo dài phép tính hoặc làm câu chữ phức tạp hơn.
+
 Rà toàn đề về phạm vi, khối lượng, mức khó, độ bao phủ, trùng lặp và tính nguyên bản. Sửa câu có vấn đề trước khi hoàn tất. Không coi việc tự kiểm tra là bằng chứng đề không thể có lỗi.
 
 Xuất `exam.md` theo tiêu đề quy định trong SKILL.md. Ngay dưới tiêu đề, ghi `Mức khó yêu cầu: <số mức 1–5 và tên mức theo cột áp dụng>` theo lựa chọn đã chốt của người dùng. Dòng này giúp phiên kiểm định đọc được yêu cầu ngay trong file đề và sẽ được xóa ở bước sửa; ghi cùng mức khó và trường hợp có/không có đề tham chiếu trong `exam-context.md`.
@@ -74,7 +106,7 @@ Sau toàn bộ câu hỏi, mặc định thêm **BẢNG ĐÁP ÁN** cho phần k
 
 Đọc lại file đã xuất để đối chiếu số câu, các phần và đáp án với bản rà soát. `exam-context.md` phải đủ ngắn để phiên B đọc nhanh, gồm:
 
-- Yêu cầu thực tế: học phần, kỳ thi, ngôn ngữ, phạm vi, cấu trúc, độ khó và mốc so sánh, thời lượng/điểm/công cụ nếu đã biết.
+- Yêu cầu thực tế: học phần, kỳ thi, ngôn ngữ, phạm vi, cấu trúc, độ khó và mốc so sánh, thang hiệu chuẩn 1–5 đã dùng và profile phân bố độ khó mục tiêu, thời lượng/điểm/công cụ nếu đã biết.
 - Các nguồn đã dùng: đường dẫn tuyệt đối đến file/folder khi có, hoặc tên/định danh tệp đính kèm; vai trò, bản chính được chọn, phạm vi đã đọc và lý do chọn nếu có khác biệt. Không bịa đường dẫn cho tệp đính kèm. Nếu biết nguồn có thể thay đổi, ghi phiên bản/kỳ thi của nguồn đã sử dụng.
 - Căn cứ hoặc giả định khi thiếu đề chính thức; điểm còn chưa xác minh và thay đổi do người dùng chỉ định.
 - Tên file đề, cách cung cấp đáp án và các yêu cầu trình bày đặc biệt của lượt này.
