@@ -1,12 +1,12 @@
 # Xác định nguồn và yêu cầu của đề
 
-## Chọn đúng học phần và kỳ thi
+## Chọn đúng học phần và loại đề
 
 1. Chỉ dùng file, thư mục hoặc đường dẫn người dùng cung cấp cho lượt làm việc; không yêu cầu tên folder hay cấu trúc lưu trữ cố định, không tự dò nguồn trong workspace. Nếu chưa có nguồn để tạo đề, yêu cầu người dùng cung cấp.
-2. Xác định giữa kỳ/cuối kỳ từ prompt hoặc nội dung nguồn được giao; tên file/folder chỉ là dấu hiệu hỗ trợ. Nếu nguồn gồm cả hai kỳ mà chưa rõ người dùng muốn kỳ nào, hỏi ngắn gọn; không mặc định giữa kỳ.
+2. Xác định loại đề (giữa kỳ, cuối kỳ hoặc luyện tập) từ prompt và nguồn được giao; tên file/folder chỉ là dấu hiệu hỗ trợ. Với đề luyện tập, dùng phạm vi và cấu trúc người dùng yêu cầu hoặc căn cứ từ nguồn, không ép quy về giữa kỳ/cuối kỳ. Nếu người dùng muốn đề thi nhưng nguồn gồm cả hai kỳ mà chưa rõ kỳ nào, hỏi ngắn gọn; không mặc định giữa kỳ.
 3. Lấy tên đầy đủ học phần từ nguồn đáng tin cậy. Mã trong tên file/folder không đủ để suy ra chắc chắn tên môn. Nếu không xác định được tên cần in, hỏi tên học phần.
 4. Lập danh sách các tài liệu được giao, gồm Markdown/text, PDF và ảnh (kể cả ảnh đính kèm trực tiếp trong chat), bao gồm tài liệu trong thư mục con nếu người dùng cung cấp cả folder. Đọc toàn bộ nguồn liên quan trước khi kết luận phạm vi/cấu trúc; tài liệu dài có thể đọc theo phần. Loại bản trùng, xác định bản thiếu trang hoặc có lỗi chuyển đổi, không tuyên bố đã đọc file chưa đọc được.
-5. Không tự trộn nguồn giữa kỳ/cuối kỳ hoặc học phần khác. Nếu tên file/folder khác nội dung, căn cứ nội dung để nhận diện và báo khác biệt. Nguồn được tham chiếu nhưng chưa được cung cấp hoặc không truy cập được phải được ghi nhận, không tự dò tìm hay bịa nội dung.
+5. Không tự trộn nguồn giữa kỳ/cuối kỳ hoặc học phần khác khi phạm vi đã gắn với một kỳ cụ thể. Với đề luyện tập, chỉ kết hợp các nguồn nằm trong phạm vi người dùng yêu cầu hoặc phạm vi đã chốt. Nếu tên file/folder khác nội dung, căn cứ nội dung để nhận diện và báo khác biệt. Nguồn được tham chiếu nhưng chưa được cung cấp hoặc không truy cập được phải được ghi nhận, không tự dò tìm hay bịa nội dung.
 
 ## Phân biệt vai trò tài liệu
 
@@ -27,19 +27,19 @@ Xem nội dung và xuất xứ, không chỉ tên file. Chưa rõ chính thức 
 - Phân biệt số câu đánh số chính với số ý nhỏ, số mục đúng/sai, câu dùng chung ngữ liệu và câu tùy chọn. Giữ cả khối lượng việc cần làm; không biến 5 câu tự luận nhiều ý thành 5 câu hỏi ngắn.
 - Xác định hình thức: trắc nghiệm một/nhiều đáp án, đúng/sai, ghép nối, điền khuyết, trả lời ngắn, tự luận, chứng minh, tính toán, phân tích dữ liệu/tình huống, đọc hiểu, lập trình hoặc hỗn hợp. Theo nguồn và yêu cầu, không áp mặc định 4 lựa chọn hoặc một đáp án cho mọi câu.
 - Xem tỷ lệ lý thuyết/vận dụng, độ sâu chủ đề, số ý, điểm số, câu bắt buộc/tùy chọn, dữ liệu dùng chung, công cụ được phép và thời lượng nếu có. Không tự thêm điểm hoặc thời gian lên đề nếu nguồn/yêu cầu chưa xác định.
-- Tài liệu bổ trợ có thể chứa phần ngoài kỳ thi. Việc nằm trong folder không tự làm toàn bộ nội dung thuộc phạm vi. Cũng không kết luận một chủ đề bị loại chỉ vì chưa xuất hiện trong vài đề cũ nếu đề cương thi vẫn bao gồm nó.
+- Tài liệu bổ trợ có thể chứa phần ngoài phạm vi đã chốt. Việc nằm trong folder không tự làm toàn bộ nội dung thuộc phạm vi. Cũng không kết luận một chủ đề bị loại chỉ vì chưa xuất hiện trong vài đề cũ nếu đề cương hoặc yêu cầu hiện tại vẫn bao gồm nó.
 
 ## Khi không có đề chính thức
 
 Vẫn tạo đề nếu ngữ cảnh đủ để đưa ra lựa chọn có căn cứ:
 
-1. Ưu tiên ma trận, thông báo cấu trúc, thời lượng và phạm vi của kỳ thi.
+1. Ưu tiên yêu cầu trực tiếp của người dùng về phạm vi, cấu trúc, số câu và thời lượng. Với đề giữa kỳ/cuối kỳ, dùng thêm ma trận hoặc thông báo thi hiện hành khi có.
 2. Nếu thiếu, dùng đề mẫu có nguồn, hướng dẫn ôn tập và bài tập tiêu biểu để suy ra dạng câu và mức kiến thức.
 3. Ước lượng độ dài theo thời gian làm bài và khối lượng suy luận/đọc/viết của từng phần; tính cả số ý và điểm số nếu có. Ngân hàng hàng trăm câu hoặc số chương của giáo trình không quyết định số câu của đề.
 4. Khi không có thời lượng nhưng có mẫu bài đánh giá và phạm vi đủ rõ, chọn độ dài hợp lý theo các mẫu đó; ghi là ước lượng trong `exam-context.md`. Không trình bày nó như cấu trúc chính thức đã được xác nhận.
 5. Nếu chỉ có giáo trình/ghi chú rộng và chưa đủ căn cứ về phạm vi hoặc khối lượng bài thi, hỏi thông tin có tác động lớn nhất, chẳng hạn phạm vi và thời gian làm bài dự kiến. Tiếp tục phân loại/đọc nguồn trong khi chờ; không tự xuất một đề với cấu trúc tùy tiện.
 
-Khi có đề tham chiếu đã chọn, dùng đề đó làm mốc độ khó. Khi không có đề tham chiếu, dùng mục tiêu học phần, phạm vi, tài liệu, bài tập và thời lượng để thiết kế mức chuẩn của kỳ thi theo generate.md; ghi rõ căn cứ trong `exam-context.md`. Tài liệu bài tập giúp xác định mức kiến thức, không tự thay thế đề tham chiếu. Áp dụng mức 1–5 do người dùng chọn; nếu chưa chọn thì hỏi trước khi tạo đề. Không khẳng định “khó hơn đề chính thức” khi chưa có bằng chứng.
+Khi có đề tham chiếu đã chọn, dùng đề đó làm mốc độ khó. Khi không có đề tham chiếu, dùng mục tiêu học phần, phạm vi, tài liệu, bài tập và thời lượng để thiết kế mức chuẩn của loại đề đang tạo theo generate.md; ghi rõ căn cứ trong `exam-context.md`. Tài liệu bài tập giúp xác định mức kiến thức, không tự thay thế đề tham chiếu. Áp dụng mức 1–5 do người dùng chọn; nếu chưa chọn thì hỏi trước khi tạo đề. Không khẳng định “khó hơn đề chính thức” khi chưa có bằng chứng.
 
 ## Vai trò của kiến thức chuyên môn
 

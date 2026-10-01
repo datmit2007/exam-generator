@@ -1,10 +1,10 @@
 # Bước 1 — Tạo đề Markdown
 
-Đọc sources.md trước. Tạo đề thi tham khảo giữa kỳ hoặc cuối kỳ cho học phần được yêu cầu; hình thức, số câu và khối lượng theo đề chính thức hoặc căn cứ thay thế đã xác định. Không giới hạn ở một môn, trắc nghiệm hay một số câu cố định.
+Đọc sources.md trước. Tạo đề tham khảo giữa kỳ, cuối kỳ hoặc đề luyện tập cho học phần được yêu cầu; hình thức, số câu và khối lượng theo đề chính thức, yêu cầu của người dùng hoặc căn cứ thay thế đã xác định. Không giới hạn ở một môn, trắc nghiệm hay một số câu cố định.
 
 ## 1. Chốt thiết kế của lượt tạo
 
-Xác định tên học phần, kỳ thi, phạm vi, cấu trúc phần/câu/ý, thời lượng và điểm nếu có, dạng đáp án, mức khó, quy ước và công cụ thí sinh được dùng. Lập phân bố chủ đề, kiểu suy luận và khối lượng trước khi viết. Phân bố tự nhiên theo mức độ quan trọng trong nguồn; không ép mỗi chương có số câu bằng nhau.
+Xác định tên học phần, loại đề, phạm vi, cấu trúc phần/câu/ý, thời lượng và điểm nếu có, dạng đáp án, mức khó, quy ước và công cụ thí sinh được dùng. Lập phân bố chủ đề, kiểu suy luận và khối lượng trước khi viết. Phân bố tự nhiên theo mức độ quan trọng trong nguồn; không ép mỗi chương có số câu bằng nhau.
 
 Với đề đọc hiểu/tình huống/lập trình, tính cả độ dài ngữ liệu, dữ liệu và phần trả lời. Nếu dạng đánh giá cần âm thanh, dụng cụ thực nghiệm hoặc thao tác ngoài văn bản, không âm thầm biến thành câu hỏi lý thuyết; xác định có thể mô phỏng hợp lệ bằng dữ liệu text hay cần người dùng bổ sung tài nguyên/yêu cầu chuyển dạng.
 
@@ -16,7 +16,7 @@ Chọn độ khó theo yêu cầu người dùng, bằng số từ **1–5** ho�
 
 | Mức | Khi có đề tham chiếu | Khi không có đề tham chiếu |
 |---|---|---|
-| **1** | **Ngang mức tham chiếu:** Khối lượng và phân bố độ khó tương đương nguồn; không làm đề tổng thể dễ hơn | **Mức chuẩn của kỳ thi:** Chủ yếu kiểm tra hiểu kiến thức và vận dụng vào tình huống quen thuộc; có một phần câu phân hóa. Sinh viên ôn tập đầy đủ có thể hoàn thành phần lớn đề trong thời gian quy định |
+| **1** | **Ngang mức tham chiếu:** Khối lượng và phân bố độ khó tương đương nguồn; không làm đề tổng thể dễ hơn | **Mức chuẩn của loại đề:** Chủ yếu kiểm tra hiểu kiến thức và vận dụng vào tình huống quen thuộc; có một phần câu phân hóa. Sinh viên ôn tập đầy đủ có thể hoàn thành phần lớn đề trong thời gian quy định |
 | **2** | **Khó hơn một chút:** Tăng vừa phải câu cần hiểu bản chất, xét điều kiện hoặc thêm bước suy luận | **Nhỉnh hơn mức chuẩn:** Tăng vừa phải câu cần giải thích bản chất, xét điều kiện hoặc vận dụng kiến thức vào tình huống có biến đổi; một số câu cần thêm bước suy luận |
 | **3** | **Khó hơn rõ rệt:** Nhiều câu kết hợp kiến thức, chọn phương pháp/mô hình và phân biệt trường hợp | **Khó rõ rệt:** Nhiều câu yêu cầu kết hợp các nội dung đã học, tự chọn phương pháp và phân biệt trường hợp; sinh viên cần hiểu chắc và vận dụng linh hoạt |
 | **4** | **Khó hơn nhiều:** Phần lớn câu phân loại cao, cần tự tìm hướng giải hoặc xây dựng lập luận nhiều bước | **Khó cao:** Phần lớn câu đòi hỏi tự tìm hướng giải, xử lý tình huống ít quen thuộc hoặc xây dựng lập luận nhiều bước; sinh viên học tốt vẫn cần đầu tư đáng kể để hoàn thành |
@@ -44,9 +44,9 @@ Trước khi tạo đề, phân tích profile yêu cầu tư duy của đề tha
 
 ### 2.3. Khi không có đề tham chiếu
 
-Xác định mức 1 là mức chuẩn của một kỳ thi giữa kỳ hoặc cuối kỳ, dựa trên mục tiêu học phần, phạm vi kiến thức, tài liệu, bài tập và thời lượng đã xác định. Đề phù hợp để sinh viên ôn tập đầy đủ, hiểu kiến thức và vận dụng được các nội dung cơ bản có thể hoàn thành phần lớn trong thời gian quy định, đồng thời vẫn có câu phân hóa. Mức 2–5 tăng yêu cầu tư duy từ nền này theo cột tương ứng. Ghi căn cứ thiết kế vào `exam-context.md`; không khẳng định mức chuẩn dự kiến tương đương đề thi thực tế khi chưa có bằng chứng.
+Xác định mức 1 là mức chuẩn của loại đề đang tạo — giữa kỳ, cuối kỳ hoặc luyện tập — dựa trên mục tiêu học phần, phạm vi kiến thức, tài liệu, bài tập và thời lượng đã xác định nếu có. Đề phù hợp để sinh viên ôn tập đầy đủ, hiểu kiến thức và vận dụng được các nội dung cơ bản có thể hoàn thành phần lớn trong thời lượng dự kiến, đồng thời vẫn có câu phân hóa. Mức 2–5 tăng yêu cầu tư duy từ nền này theo cột tương ứng. Ghi căn cứ thiết kế vào `exam-context.md`; không khẳng định mức chuẩn dự kiến tương đương một đề thi thực tế khi chưa có bằng chứng.
 
-Trước khi diễn giải mức 2–5, phải dựng được profile mức 1 của lượt hiện tại từ các căn cứ trên. Sau đó xây dựng lần lượt các mức cao hơn trên cùng thang; không diễn giải trực tiếp một mức cao khi chưa xác định baseline của kỳ thi chuẩn.
+Trước khi diễn giải mức 2–5, phải dựng được profile mức 1 của lượt hiện tại từ các căn cứ trên. Sau đó xây dựng lần lượt các mức cao hơn trên cùng thang; không diễn giải trực tiếp một mức cao khi chưa xác định baseline của loại đề.
 
 ### 2.4. Phân biệt các mức liền kề
 
@@ -54,7 +54,7 @@ Sau khi dựng thang, kiểm tra rằng mỗi hai mức liền kề có khác bi
 
 ### 2.5. Độ khó của toàn đề
 
-Mức người dùng chọn mô tả profile tổng thể của đề, không bắt buộc mọi câu đều có cùng một mức khó. Thiết kế phân bố độ khó phù hợp với cấu trúc và mục tiêu đánh giá: có thể giữ một số câu thấp hơn mức mục tiêu để kiểm tra kiến thức nền và độ bao phủ, đồng thời có một số câu cao hơn để phân hóa khi phù hợp. Mức mục tiêu phải chi phối profile chung của đề. Không áp một tỷ lệ câu cố định cho mọi học phần; xác định phân bố theo nguồn, cấu trúc, thời lượng và mục tiêu của kỳ thi.
+Mức người dùng chọn mô tả profile tổng thể của đề, không bắt buộc mọi câu đều có cùng một mức khó. Thiết kế phân bố độ khó phù hợp với cấu trúc và mục tiêu đánh giá: có thể giữ một số câu thấp hơn mức mục tiêu để kiểm tra kiến thức nền và độ bao phủ, đồng thời có một số câu cao hơn để phân hóa khi phù hợp. Mức mục tiêu phải chi phối profile chung của đề. Không áp một tỷ lệ câu cố định cho mọi học phần; xác định phân bố theo nguồn, cấu trúc, thời lượng và mục tiêu của đề.
 
 Trong cả hai trường hợp, tự lựa chọn cách thiết kế câu hỏi phù hợp học phần và mức khó đã chọn, giữ đúng phạm vi và cấu trúc đã xác định. Không tăng khó bằng diễn đạt mơ hồ hoặc chỉ kéo dài tính toán. Các mức không tương đương tuyệt đối giữa các học phần; mức 1 của một đề tham chiếu vốn rất khó có thể khó hơn mức cao hơn của học phần khác.
 
@@ -106,7 +106,7 @@ Sau toàn bộ câu hỏi, mặc định thêm **BẢNG ĐÁP ÁN** cho phần k
 
 Đọc lại file đã xuất để đối chiếu số câu, các phần và đáp án với bản rà soát. `exam-context.md` phải đủ ngắn để phiên B đọc nhanh, gồm:
 
-- Yêu cầu thực tế: học phần, kỳ thi, ngôn ngữ, phạm vi, cấu trúc, độ khó và mốc so sánh, thang hiệu chuẩn 1–5 đã dùng và profile phân bố độ khó mục tiêu, thời lượng/điểm/công cụ nếu đã biết.
+- Yêu cầu thực tế: học phần, loại đề, ngôn ngữ, phạm vi, cấu trúc, độ khó và mốc so sánh, thang hiệu chuẩn 1–5 đã dùng và profile phân bố độ khó mục tiêu, thời lượng/điểm/công cụ nếu đã biết.
 - Các nguồn đã dùng: đường dẫn tuyệt đối đến file/folder khi có, hoặc tên/định danh tệp đính kèm; vai trò, bản chính được chọn, phạm vi đã đọc và lý do chọn nếu có khác biệt. Không bịa đường dẫn cho tệp đính kèm. Nếu biết nguồn có thể thay đổi, ghi phiên bản/kỳ thi của nguồn đã sử dụng.
 - Căn cứ hoặc giả định khi thiếu đề chính thức; điểm còn chưa xác minh và thay đổi do người dùng chỉ định.
 - Tên file đề, cách cung cấp đáp án và các yêu cầu trình bày đặc biệt của lượt này.
