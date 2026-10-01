@@ -10,13 +10,13 @@ Nếu thiếu đề hoặc chưa biết cần sửa theo nhận xét nào, hỏi
 
 - Xác minh lại từng nhận xét, không sửa theo nhận xét sai hoặc chưa đủ chứng cứ. Giữ các câu tốt; chỉ chỉnh hoặc thay câu khi cần. Gợi ý tùy chọn chỉ áp dụng nếu cải thiện rõ và không làm thay đổi yêu cầu đã chốt.
 - Giữ phạm vi, số câu/ý, cấu trúc, mức khó, dạng câu, điểm số và cách cung cấp đáp án của lượt tạo, trừ điều chỉnh được người dùng yêu cầu.
-- Nếu thay câu, bảo toàn vai trò của nó trong phân bố chủ đề và khối lượng toàn đề. Tránh sửa thành câu dễ hơn chỉ để loại bỏ lỗi.
+- Nếu thay câu, bảo toàn vai trò của nó trong phân bố chủ đề, khối lượng và profile độ khó của toàn đề. Một câu được sửa hoặc thay không được vô tình tụt hoặc tăng mức đáng kể so với vai trò cần giữ, trừ khi review hoặc người dùng yêu cầu điều chỉnh chính độ khó. Tránh sửa thành câu dễ hơn chỉ để loại bỏ lỗi.
 - Cập nhật đồng bộ lời dẫn, ngữ liệu chung, bảng/code, các lựa chọn, mô tả hình và đáp án. Câu dùng chung dữ kiện phải được kiểm tra cùng nhóm; đánh số lại phải cập nhật mọi tham chiếu liên quan.
 - Với câu mở/tự luận, sửa cả ý chính và tiêu chí chấp nhận các cách trả lời hợp lệ. Với trắc nghiệm, xác nhận số lựa chọn đúng theo dạng câu thực tế.
 
 ## Rà soát và đầu ra
 
-Sau khi sửa, giải/đánh giá lại toàn bộ đề, tập trung vào câu thay đổi và các phần phụ thuộc; đối chiếu với báo cáo để bảo đảm không sót lỗi đã xác minh. Kiểm tra lại độ bao phủ, mức khó và tính nguyên bản của câu thay thế.
+Sau khi sửa, giải/đánh giá lại toàn bộ đề, tập trung vào câu thay đổi và các phần phụ thuộc; đối chiếu với báo cáo để bảo đảm không sót lỗi đã xác minh. Kiểm tra lại độ bao phủ, mức khó và tính nguyên bản của câu thay thế. Nếu có thang hiệu chuẩn trong context hoặc báo cáo, đánh giá lại độ khó thực tế của các câu đã thay đổi theo cùng thang và kiểm tra phân bố toàn đề vẫn phù hợp profile mục tiêu trước khi xuất.
 
 Xuất `exam-final.md` hoàn chỉnh, gồm tiêu đề, mọi câu/ý và phần đáp án theo cấu hình lượt tạo. Xóa dòng bàn giao `Mức khó yêu cầu` dưới tiêu đề khỏi bản này, nhưng vẫn giữ đúng mức khó đó khi sửa; yêu cầu được lưu trong context hoặc báo cáo kiểm định để dùng lại. Không chỉ xuất các đoạn sửa. Hình vẫn là block mô tả text tại đúng câu, chưa dựng hình hay xuất PDF. Đọc lại chính file cuối để kiểm tra thứ tự và đồng bộ đáp án.
 
