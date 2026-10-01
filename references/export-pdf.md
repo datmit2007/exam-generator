@@ -12,14 +12,26 @@ Không đọc lại đề chính thức, giải bài, chấm đáp án, đánh g
 
 ## Công cụ và phông chữ
 
-TeX Live 2026 đã được cài trên máy người dùng tại `D:\texlive\2026`, thư mục chương trình là `D:\texlive\2026\bin\windows`. Dùng LuaLaTeX hoặc XeLaTeX để dàn trang và xuất PDF; có thể gọi trực tiếp:
+Ưu tiên dùng LuaLaTeX hoặc XeLaTeX để dàn trang và xuất PDF.
+
+Môi trường phát triển chính của skill hiện sử dụng TeX Live 2026 tại `D:\texlive\2026`, với các executable:
 
 - `D:\texlive\2026\bin\windows\lualatex.exe`
 - `D:\texlive\2026\bin\windows\xelatex.exe`
 
-Nếu chương trình chưa có trong PATH, dùng đường dẫn đầy đủ trên. Kiểm tra chương trình có tồn tại trước khi chạy; nếu dùng skill trên máy khác, tìm bản TeX hiện có thay vì mặc định ổ D vẫn đúng. Không cài lại TeX Live khi bản cài sẵn sử dụng được.
+Nếu các đường dẫn trên tồn tại và sử dụng được, ưu tiên bản cài này.
 
-Với công việc tạo/sửa tài liệu LaTeX độc lập trong Codex, dùng trình biên tập và compiler tích hợp theo hướng dẫn môi trường. Phân biệt biên dịch xem trước với xuất file PDF có thể giao; dùng TeX Live cục bộ khi cần tạo file PDF đầu ra.
+Nếu không tìm thấy, xác định công cụ theo thứ tự sau:
+
+1. Tìm `lualatex` hoặc `xelatex` trong `PATH` của hệ thống.
+2. Nếu chưa có, kiểm tra các bản TeX Live hoặc MiKTeX đã được cài trong môi trường hiện tại bằng đường dẫn, biến môi trường hoặc cơ chế phát hiện phần mềm phù hợp với hệ điều hành.
+3. Nếu môi trường đã cung cấp một công cụ dựng tài liệu/PDF khác, chỉ sử dụng khi công cụ đó có thể bảo toàn đầy đủ nội dung Unicode, công thức toán, phông chữ, hình, bảng và bố cục với chất lượng tương đương yêu cầu của bước xuất.
+4. Không tự cài TeX Live, MiKTeX, phông chữ hoặc phần mềm bổ sung chỉ để hoàn thành bước xuất, trừ khi người dùng yêu cầu rõ ràng.
+5. Nếu không có công cụ phù hợp, giữ lại Markdown và các tệp trung gian có thể sử dụng được, báo rõ rằng chưa thể tạo PDF hoàn chỉnh và không tuyên bố đã xuất thành công.
+
+Không coi đường dẫn `D:\texlive\2026` là yêu cầu bắt buộc đối với máy hoặc môi trường khác. Luôn kiểm tra công cụ thực tế trước khi sử dụng.
+
+Với công việc tạo hoặc sửa tài liệu LaTeX độc lập trong môi trường có compiler tích hợp, có thể sử dụng compiler sẵn có nếu đáp ứng các yêu cầu tương đương. Phân biệt biên dịch xem trước với việc tạo file PDF cuối cùng có thể bàn giao.
 
 Nếu dùng LaTeX, thiết lập `fontspec` và `unicode-math` khi tương thích:
 
@@ -29,7 +41,7 @@ Nếu dùng LaTeX, thiết lập `fontspec` và `unicode-math` khi tương thíc
 
 Mã chương trình dùng phông đơn cách rõ ràng, giữ thụt lề và ký tự. Nếu hệ chữ của đề cần phông bổ sung, chọn phông hỗ trợ và thông báo lựa chọn; không để mất glyph. Thiếu phông mặc định hoặc công cụ xuất phải báo rõ, không âm thầm thay hoặc tự cài phần mềm.
 
-Mặc định dùng LaTeX cho việc dàn trang và dựng hình. Chỉ dùng công cụ khác cho một phần cụ thể khi đã xác định được lợi ích rõ ràng so với LaTeX và nêu được lý do cụ thể về độ chính xác hoặc chất lượng trình bày. Nếu chưa có căn cứ rõ ràng, tiếp tục dùng LaTeX. Tích hợp kết quả vào PDF sao cho nội dung trung thành với Markdown, phông chữ và cách trình bày nhất quán, chất lượng hiển thị rõ ràng. Nếu công cụ hiện có chưa đáp ứng yêu cầu đầu ra, giữ nguồn và nêu giới hạn, không tuyên bố đã có PDF hoàn chỉnh.
+Mặc định ưu tiên LaTeX cho việc dàn trang và dựng hình khi có một TeX engine phù hợp. Chỉ dùng công cụ khác khi công cụ đó đã có sẵn trong môi trường và có lợi ích rõ ràng về độ chính xác, khả năng dựng hình hoặc chất lượng trình bày mà không làm giảm tính trung thành với nguồn. Nếu chưa có căn cứ rõ ràng, tiếp tục dùng LaTeX. Tích hợp kết quả vào PDF sao cho nội dung trung thành với Markdown, phông chữ và cách trình bày nhất quán, chất lượng hiển thị rõ ràng. Nếu công cụ hiện có chưa đáp ứng yêu cầu đầu ra, giữ nguồn và nêu giới hạn, không tuyên bố đã có PDF hoàn chỉnh.
 
 ## Chuyển đổi và hình
 
@@ -61,4 +73,4 @@ Render và quan sát từng trang của chính PDF đã xuất. Đối chiếu v
 
 Sửa lỗi chuyển đổi/dàn trang trong tệp trung gian rồi biên dịch và xem lại trang bị ảnh hưởng; nếu bố cục dồn trang thay đổi, kiểm tra cả các trang tiếp theo. Không sửa Markdown đầu vào. Nếu không render/quan sát được, nói rõ phần kiểm tra hình thức chưa thực hiện, không khẳng định đã kiểm tra đầy đủ.
 
-Giao link `exam.pdf` cuối cùng. Giữ tệp trung gian trong folder riêng của lượt xuất để sửa bố cục khi cần; chỉ đưa thêm link nguồn nếu người dùng yêu cầu hoặc PDF chưa xuất được.
+Nếu xuất thành công, giao link `exam.pdf` cuối cùng. Giữ tệp trung gian trong folder riêng của lượt xuất để có thể sửa bố cục khi cần. Nếu không thể tạo PDF vì thiếu công cụ hoặc phụ thuộc cần thiết, giao các tệp nguồn/trung gian sử dụng được và nêu rõ giới hạn thay vì tạo một đầu ra thay thế kém trung thành.
