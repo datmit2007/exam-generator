@@ -54,6 +54,8 @@ Mặc định ưu tiên LaTeX cho việc dàn trang và dựng hình khi có m�
 
 Khổ A4, bố cục tối giản như đề thi thực tế. Không thêm trang bìa, logo, tên trường, ghi chú AI, thông tin lượt tạo hoặc lời hướng dẫn không có trong Markdown. Tiêu đề theo đúng nguồn, không tự sửa theo mẫu của bước tạo.
 
+Nhãn câu hỏi được trình bày ở một dòng riêng theo dạng `Câu n.`, và nội dung câu hỏi bắt đầu ở dòng kế tiếp. Không chèn dòng trắng bắt buộc giữa nhãn câu và nội dung.
+
 Với bốn lựa chọn ngắn, ưu tiên: cùng một dòng → hai cột hai hàng (A–B trên, C–D dưới) → mỗi lựa chọn một dòng. Chọn theo chiều rộng thực tế, kể cả công thức; với số lựa chọn khác, áp dụng nguyên tắc dễ đọc và đúng thứ tự. Không đổi thứ tự lựa chọn để vừa cột.
 
 Giữ lời dẫn cùng phần đầu câu và các lựa chọn khi hợp lý. Câu/hình ngắn ưu tiên cùng trang. Câu tự luận hoặc ngữ liệu dài có thể tiếp trang ở chỗ tự nhiên, không thu nhỏ chữ quá mức để ép vừa. Không tự chèn khoảng trống làm bài dài nếu nguồn/yêu cầu không có.

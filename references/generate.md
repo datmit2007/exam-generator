@@ -92,7 +92,7 @@ Mô tả phải đủ để người dàn trang dựng hình mà không phải g
 
 ## 5. Tự rà soát và đầu ra
 
-Giải/đánh giá lại từng câu trước khi xuất. Kiểm tra dữ kiện, quy ước, tính hợp lệ của đáp án, đơn vị, ký hiệu và độ chính xác; áp dụng các kiểm tra chuyên môn phù hợp với môn thực tế. Với câu mở, thử tiêu chí trên hơn một cách trả lời có thể hợp lệ. Kiểm tra lời dẫn, bảng, code, mô tả hình và các lựa chọn khớp nhau.
+Giải/đánh giá lại từng câu trước khi xuất. Kiểm tra dữ kiện, quy ước, tính hợp lệ của đáp án, đơn vị, ký hiệu và độ chính xác; áp dụng các kiểm tra chuyên môn phù hợp với môn thực tế. Với câu mở, thử tiêu chí trên hơn một cách trả lời có thể hợp lệ. Kiểm tra lời dẫn, bảng, code, mô tả hình và các lựa chọn khớp nhau. Kiểm tra để hình thức phương án trả lời không bị lặp lại một cách máy móc giữa quá nhiều câu; chỉ đa dạng hóa khi phù hợp tự nhiên với nội dung.
 
 Sau khi hoàn thành bản nháp, đánh giá lại độ khó thực tế của từng câu hoặc nhóm câu theo chính thang 1–5 đã hiệu chuẩn. Không mặc định câu được dự kiến ở mức nào thì thực tế đạt mức đó. Đối chiếu phân bố thực tế với profile mục tiêu của toàn đề; nếu đề thấp hơn hoặc cao hơn đáng kể so với mức người dùng chọn, chỉnh câu hỏi, yêu cầu suy luận hoặc phân bố câu trước khi xuất. Khi chỉnh độ khó, ưu tiên thay đổi yêu cầu tư duy, lựa chọn phương pháp, sự kết hợp kiến thức hoặc cấu trúc suy luận; không chỉ kéo dài phép tính hoặc làm câu chữ phức tạp hơn.
 
@@ -104,9 +104,9 @@ Phần câu hỏi không chứa lời giải, đánh dấu đáp án đúng, ngu
 
 Sau toàn bộ câu hỏi, mặc định thêm **BẢNG ĐÁP ÁN** cho phần khách quan: số câu/ý và đáp án tương ứng. Với tự luận hoặc câu mở, thêm **GỢI Ý ĐÁP ÁN** ngắn: kết quả/ý chính/tiêu chí chấp nhận, điểm theo ý nếu thang điểm đã xác định; không tự thêm lời giải dài. Đề hỗn hợp dùng cả hai phần khi cần. Nếu người dùng yêu cầu chỉ có đề, tách đáp án hoặc lời giải chi tiết, làm đúng yêu cầu đó.
 
-Đọc lại file đã xuất để đối chiếu số câu, các phần và đáp án với bản rà soát. `exam-context.md` phải đủ ngắn để phiên B đọc nhanh, gồm:
+Đọc lại file đã xuất để đối chiếu số câu, các phần và đáp án với bản rà soát. Generator tự kiểm tra mức khó trong quá trình tạo và điều chỉnh đề nếu cần, nhưng không đưa đánh giá của chính Generator về mức khó thực tế đã đạt vào `exam-context.md`. Không ghi phân bố mức khó thực tế hoặc nhãn mức khó từng câu do Generator tự chấm; về độ khó, chỉ giữ mức khó mục tiêu và thông tin hiệu chuẩn cần thiết cho Reviewer. `exam-context.md` phải đủ ngắn để phiên B đọc nhanh, gồm:
 
-- Yêu cầu thực tế: học phần, loại đề, ngôn ngữ, phạm vi, cấu trúc, độ khó và mốc so sánh, thang hiệu chuẩn 1–5 đã dùng và profile phân bố độ khó mục tiêu, thời lượng/điểm/công cụ nếu đã biết.
+- Yêu cầu thực tế: học phần, loại đề, ngôn ngữ, phạm vi, cấu trúc, độ khó mục tiêu và mốc so sánh, thang hiệu chuẩn 1–5 đã dùng và profile phân bố độ khó mục tiêu, thời lượng/điểm/công cụ nếu đã biết.
 - Các nguồn đã dùng: đường dẫn tuyệt đối đến file/folder khi có, hoặc tên/định danh tệp đính kèm; vai trò, bản chính được chọn, phạm vi đã đọc và lý do chọn nếu có khác biệt. Không bịa đường dẫn cho tệp đính kèm. Nếu biết nguồn có thể thay đổi, ghi phiên bản/kỳ thi của nguồn đã sử dụng.
 - Căn cứ hoặc giả định khi thiếu đề chính thức; điểm còn chưa xác minh và thay đổi do người dùng chỉ định.
 - Tên file đề, cách cung cấp đáp án và các yêu cầu trình bày đặc biệt của lượt này.
