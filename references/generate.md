@@ -66,6 +66,8 @@ Dựa trên phạm vi đã chốt từ tài liệu và đề mẫu, chủ độn
 - Giữ thuật ngữ, mức hình thức hóa, cách hỏi và độ dài phù hợp học phần. Nêu rõ dữ kiện, giả thiết, mô hình, quy ước và kết quả cần tìm khi chúng quyết định cách hiểu.
 - Trắc nghiệm một đáp án: số lựa chọn theo thiết kế; đúng một lựa chọn đúng trong điều kiện đã cho. Trắc nghiệm nhiều đáp án/đúng-sai: hướng dẫn rõ thao tác trả lời và biểu diễn đáp án theo dạng đó, không ép về một chữ cái.
 - Phương án nhiễu xuất phát từ lỗi hiểu hoặc lỗi lập luận thực tế. Tránh lựa chọn vô lý, trùng nghĩa, chứa nhau ngoài chủ ý, hoặc để đáp án lộ qua độ dài, ký hiệu, văn phong, độ chính xác số liệu. Không ép phân bố chữ cái cân bằng bằng cách làm hỏng câu.
+
+Khi thiết kế câu trắc nghiệm, chỉ kết hợp nhiều nhận định, thuộc tính hoặc kết quả trong một phương án nếu việc đó phù hợp với mục tiêu đánh giá. Xây dựng các phương án nhiễu sao cho thí sinh không thể dễ dàng xác định duy nhất đáp án từ một thành phần khi câu hỏi chủ đích kiểm tra nhiều thành phần. Rà soát toàn đề để tránh lặp lại máy móc về cấu trúc phương án; chỉ đa dạng hóa khi phù hợp tự nhiên với nội dung, không ép các lựa chọn theo một khuôn tổ hợp cố định.
 - Tự luận/tính toán/chứng minh: xác định rõ sản phẩm cần nộp và độ sâu mong muốn. Với câu mở, có thể có nhiều cách trả lời hợp lệ; tiêu chí đánh giá phải cho phép chúng. Không dùng yêu cầu “một đáp án đúng duy nhất” cho bài nghị luận hoặc phân tích mở.
 - Đề hỗn hợp: giữ số phần, tỷ lệ dạng câu, điểm và quy tắc chọn câu theo thiết kế. Kiểm tra tổng điểm khi có thang điểm và số câu thí sinh phải làm khi có lựa chọn.
 - Ngữ liệu/tình huống/dữ liệu dùng chung phải đủ để làm các câu; không để câu trước vô tình tiết lộ câu sau. Nếu dữ liệu được giả lập, diễn đạt phù hợp, không gán nguồn hoặc sự kiện thật chưa xác minh. Với yêu cầu dựa trên trích đoạn cụ thể, dùng nguồn được phép và không bịa trích dẫn.
@@ -92,7 +94,7 @@ Mô tả phải đủ để người dàn trang dựng hình mà không phải g
 
 ## 5. Tự rà soát và đầu ra
 
-Giải/đánh giá lại từng câu trước khi xuất. Kiểm tra dữ kiện, quy ước, tính hợp lệ của đáp án, đơn vị, ký hiệu và độ chính xác; áp dụng các kiểm tra chuyên môn phù hợp với môn thực tế. Với câu mở, thử tiêu chí trên hơn một cách trả lời có thể hợp lệ. Kiểm tra lời dẫn, bảng, code, mô tả hình và các lựa chọn khớp nhau. Kiểm tra để hình thức phương án trả lời không bị lặp lại một cách máy móc giữa quá nhiều câu; chỉ đa dạng hóa khi phù hợp tự nhiên với nội dung.
+Giải/đánh giá lại từng câu trước khi xuất. Kiểm tra dữ kiện, quy ước, tính hợp lệ của đáp án, đơn vị, ký hiệu và độ chính xác; áp dụng các kiểm tra chuyên môn phù hợp với môn thực tế. Với câu mở, thử tiêu chí trên hơn một cách trả lời có thể hợp lệ. Kiểm tra lời dẫn, bảng, code, mô tả hình và các lựa chọn khớp nhau.
 
 Sau khi hoàn thành bản nháp, đánh giá lại độ khó thực tế của từng câu hoặc nhóm câu theo chính thang 1–5 đã hiệu chuẩn. Không mặc định câu được dự kiến ở mức nào thì thực tế đạt mức đó. Đối chiếu phân bố thực tế với profile mục tiêu của toàn đề; nếu đề thấp hơn hoặc cao hơn đáng kể so với mức người dùng chọn, chỉnh câu hỏi, yêu cầu suy luận hoặc phân bố câu trước khi xuất. Khi chỉnh độ khó, ưu tiên thay đổi yêu cầu tư duy, lựa chọn phương pháp, sự kết hợp kiến thức hoặc cấu trúc suy luận; không chỉ kéo dài phép tính hoặc làm câu chữ phức tạp hơn.
 
