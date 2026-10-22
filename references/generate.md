@@ -8,11 +8,11 @@ Xác định tên học phần, loại đề, phạm vi, cấu trúc phần/câu
 
 Với đề đọc hiểu/tình huống/lập trình, tính cả độ dài ngữ liệu, dữ liệu và phần trả lời. Nếu dạng đánh giá cần âm thanh, dụng cụ thực nghiệm hoặc thao tác ngoài văn bản, không âm thầm biến thành câu hỏi lý thuyết; xác định có thể mô phỏng hợp lệ bằng dữ liệu text hay cần người dùng bổ sung tài nguyên/yêu cầu chuyển dạng.
 
-Không hỏi lại các quyết định đã có đủ căn cứ. Lưu thiết kế ngắn vào `exam-context.md`; không chèn bản phân tích nguồn vào phần đề.
+Chốt các lựa chọn với người dùng theo SKILL.md; phần suy ra từ tài liệu vẫn cần đề xuất để xác nhận nếu chưa được người dùng chốt hoặc giao tự quyết. Lưu thiết kế ngắn vào `exam-context.md`; không chèn bản phân tích nguồn vào phần đề.
 
 ## 2. Độ khó
 
-Chọn độ khó theo yêu cầu người dùng, bằng số từ **1–5** hoặc mô tả tương ứng. Dùng lại lựa chọn đã chốt cho lượt tạo; không hỏi lại khi đã rõ. Nếu người dùng chưa chọn độ khó, hỏi họ chọn mức 1–5 trước khi tạo đề và chờ câu trả lời; không tự áp dụng mức mặc định. Nếu mô tả chưa đủ rõ để xác định mức, hỏi làm rõ. Có thể tiếp tục đọc và phân tích nguồn trong khi chờ.
+Dùng mức khó **1–5** hoặc mô tả tương ứng đã được người dùng chốt. Nếu còn thiếu hoặc chưa rõ, gộp việc hỏi mức khó vào lượt trao đổi trước khi tạo đề; không tự áp dụng mức mặc định. Có thể tiếp tục đọc và phân tích nguồn trong khi chờ.
 
 | Mức | Khi có đề tham chiếu | Khi không có đề tham chiếu |
 |---|---|---|
@@ -38,9 +38,9 @@ Khối lượng tính toán, số liệu xấu, độ dài câu và cách diễn
 
 ### 2.2. Khi có đề tham chiếu
 
-Lấy đề tham chiếu đã chọn làm mốc và áp dụng mức độ khó 1–5 theo cột tương ứng. Ở mức 1, giữ khối lượng và phân bố độ khó tương đương đề tham chiếu; ở mức 2–5, tăng yêu cầu tư duy theo mức đã chọn. Không có mức dễ hơn đề tham chiếu trong thang này.
+Mốc độ khó có thể dựa trên một đề hoặc tổng hợp nhiều đề theo lựa chọn đã chốt. Khi người dùng yêu cầu lấy trung bình mà không chỉ định trọng số, dùng trọng số ngang nhau. Tổng hợp yêu cầu tư duy và phân bố độ khó, có xét khác biệt về phạm vi, cấu trúc và thời lượng; không gán điểm khó tùy ý để lấy trung bình số học. Nếu cách tổng hợp còn có nhiều cách hiểu đáng kể, hỏi làm rõ.
 
-Trước khi tạo đề, phân tích profile yêu cầu tư duy của đề tham chiếu và dùng profile đó làm mức 1. Từ mốc này, xây dựng lần lượt mức 2, 3, 4 và 5 trên cùng phạm vi và cấu trúc. Không nhảy trực tiếp từ đề tham chiếu sang mô tả của mức mục tiêu. Nếu người dùng chọn một mức cao, phải xác định được mức ngay dưới thấp hơn ở đâu và mức ngay trên còn cao hơn ở đâu trước khi viết câu hỏi.
+Dùng profile của mốc đã chốt làm mức 1, rồi xây dựng lần lượt mức 2–5 trên phạm vi và cấu trúc đã xác định. Mức 1 giữ yêu cầu tổng thể tương đương mốc; các mức cao hơn tăng yêu cầu tư duy và phải phân biệt được với mức liền kề. Không có mức dễ hơn mốc trong thang này.
 
 ### 2.3. Khi không có đề tham chiếu
 
@@ -109,7 +109,7 @@ Sau toàn bộ câu hỏi, mặc định thêm **BẢNG ĐÁP ÁN** cho phần k
 Đọc lại file đã xuất để đối chiếu số câu, các phần và đáp án với bản rà soát. Generator tự kiểm tra mức khó trong quá trình tạo và điều chỉnh đề nếu cần, nhưng không đưa đánh giá của chính Generator về mức khó thực tế đã đạt vào `exam-context.md`. Không ghi phân bố mức khó thực tế hoặc nhãn mức khó từng câu do Generator tự chấm; về độ khó, chỉ giữ mức khó mục tiêu và thông tin hiệu chuẩn cần thiết cho Reviewer. `exam-context.md` phải đủ ngắn để phiên B đọc nhanh, gồm:
 
 - Yêu cầu thực tế: học phần, loại đề, ngôn ngữ, phạm vi, cấu trúc, độ khó mục tiêu và mốc so sánh, thang hiệu chuẩn 1–5 đã dùng và profile phân bố độ khó mục tiêu, thời lượng/điểm/công cụ nếu đã biết.
-- Các nguồn đã dùng: đường dẫn tuyệt đối đến file/folder khi có, hoặc tên/định danh tệp đính kèm; vai trò, bản chính được chọn, phạm vi đã đọc và lý do chọn nếu có khác biệt. Không bịa đường dẫn cho tệp đính kèm. Nếu biết nguồn có thể thay đổi, ghi phiên bản/kỳ thi của nguồn đã sử dụng.
+- Các nguồn đã dùng: đường dẫn tuyệt đối hoặc tên/định danh tệp đính kèm, vai trò, phạm vi đã đọc và phiên bản/kỳ thi nếu biết. Ghi cách chọn hoặc tổng hợp nguồn, trọng số nếu có, cùng những quyết định được người dùng xác nhận hoặc giao model tự quyết. Không bịa đường dẫn cho tệp đính kèm.
 - Căn cứ hoặc giả định khi thiếu đề chính thức; điểm còn chưa xác minh và thay đổi do người dùng chỉ định.
 - Tên file đề, cách cung cấp đáp án và các yêu cầu trình bày đặc biệt của lượt này.
 

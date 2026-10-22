@@ -23,7 +23,7 @@ Xem nội dung và xuất xứ, không chỉ tên file. Chưa rõ chính thức 
 ## Chốt phạm vi và cấu trúc
 
 - Thông báo/ma trận hiện hành rõ ràng có thể thay thế cấu trúc của đề cũ. Đề cũ vẫn hữu ích về phong cách và độ khó của phần kiến thức còn áp dụng.
-- Nếu nhiều đề chính thức nhất quán, lấy cấu trúc chung. Nếu khác nhau, ưu tiên phiên bản áp dụng cho kỳ đang xét; nếu không có chỉ định, dùng đề mới nhất có ngày/kỳ xác định và lý do phù hợp. Không dùng ngày sửa file làm niên đại đề, không lấy trung bình số câu một cách máy móc. Khi không chọn được vì các khác biệt quan trọng, hỏi một câu ngắn.
+- Các nguồn có thể giữ vai trò khác nhau đối với phạm vi, cấu trúc, độ khó và những yêu cầu khác. Nếu người dùng chưa chốt, đề xuất cách sử dụng nguồn để xác nhận; nêu khác biệt hoặc điểm chưa rõ về vai trò, xuất xứ khi chúng ảnh hưởng đến lựa chọn. Không mặc nhiên chọn đề mới nhất hoặc dùng cùng một nguồn làm chuẩn cho mọi mặt. Không dùng ngày sửa file làm niên đại đề hay lấy trung bình số câu một cách máy móc.
 - Phân biệt số câu đánh số chính với số ý nhỏ, số mục đúng/sai, câu dùng chung ngữ liệu và câu tùy chọn. Giữ cả khối lượng việc cần làm; không biến 5 câu tự luận nhiều ý thành 5 câu hỏi ngắn.
 - Xác định hình thức: trắc nghiệm một/nhiều đáp án, đúng/sai, ghép nối, điền khuyết, trả lời ngắn, tự luận, chứng minh, tính toán, phân tích dữ liệu/tình huống, đọc hiểu, lập trình hoặc hỗn hợp. Theo nguồn và yêu cầu, không áp mặc định 4 lựa chọn hoặc một đáp án cho mọi câu.
 - Xem tỷ lệ lý thuyết/vận dụng, độ sâu chủ đề, số ý, điểm số, câu bắt buộc/tùy chọn, dữ liệu dùng chung, công cụ được phép và thời lượng nếu có. Không tự thêm điểm hoặc thời gian lên đề nếu nguồn/yêu cầu chưa xác định.
@@ -39,7 +39,7 @@ Vẫn tạo đề nếu ngữ cảnh đủ để đưa ra lựa chọn có căn 
 4. Khi không có thời lượng nhưng có mẫu bài đánh giá và phạm vi đủ rõ, chọn độ dài hợp lý theo các mẫu đó; ghi là ước lượng trong `exam-context.md`. Không trình bày nó như cấu trúc chính thức đã được xác nhận.
 5. Nếu chỉ có giáo trình/ghi chú rộng và chưa đủ căn cứ về phạm vi hoặc khối lượng bài thi, hỏi thông tin có tác động lớn nhất, chẳng hạn phạm vi và thời gian làm bài dự kiến. Tiếp tục phân loại/đọc nguồn trong khi chờ; không tự xuất một đề với cấu trúc tùy tiện.
 
-Khi có đề tham chiếu đã chọn, dùng đề đó làm mốc độ khó. Khi không có đề tham chiếu, dùng mục tiêu học phần, phạm vi, tài liệu, bài tập và thời lượng để thiết kế mức chuẩn của loại đề đang tạo theo generate.md; ghi rõ căn cứ trong `exam-context.md`. Tài liệu bài tập giúp xác định mức kiến thức, không tự thay thế đề tham chiếu. Áp dụng mức 1–5 do người dùng chọn; nếu chưa chọn thì hỏi trước khi tạo đề. Không khẳng định “khó hơn đề chính thức” khi chưa có bằng chứng.
+Khi có một hoặc nhiều đề được chọn làm mốc độ khó, sử dụng theo cách đã chốt; cách tổng hợp nhiều đề được quy định trong generate.md. Khi không có đề tham chiếu, dùng mục tiêu học phần, phạm vi, tài liệu, bài tập và thời lượng để thiết kế mức chuẩn của loại đề đang tạo theo generate.md; ghi rõ căn cứ trong `exam-context.md`. Tài liệu bài tập giúp xác định mức kiến thức, không tự thay thế đề tham chiếu. Áp dụng mức 1–5 do người dùng chọn; nếu chưa chọn thì hỏi trước khi tạo đề. Không khẳng định “khó hơn đề chính thức” khi chưa có bằng chứng.
 
 ## Vai trò của kiến thức chuyên môn
 
